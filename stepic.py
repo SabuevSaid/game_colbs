@@ -17,6 +17,13 @@ def go():
 def draw():
     pass
 def end():
-    pass
+    completed_colbs = 0
+    for colb in colbs:
+        if len(set(colb)) == 1:
+            completed_colbs += 1
+    if completed_colbs == len(colbs):
+        return True
+    else:
+        return False
 for i in colbs:
     print(*i)
