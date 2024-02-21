@@ -13,7 +13,7 @@ def get_colbs():
             colb.append(reversed_colbs[x][y])
         colbs.append(colb)
     return colbs
-def get_colbs():
+def get_value_colors_in_colbs():
     value_colors_in_colbs = []
     for colb in get_colbs():
         value_colors_in_colb = []
