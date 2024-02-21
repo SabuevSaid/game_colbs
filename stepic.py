@@ -48,5 +48,3 @@ def end():
         return True
     else:
         return False
-for i in get_value_colors_in_colbs():
-    print(i)
