@@ -1,3 +1,6 @@
+import algorithm as al
+
+
 color_colbs = {}
 value_colbs = {}
 n, m = list(map(int, input().split()))
@@ -8,6 +11,7 @@ for y in range(m):
     for x in range(n):
         colb.append(reversed_colbs[x][y])
     colbs.append(colb)
+    al.fun()
 def touch():
     pass
 def is_you_can_go(old_colb, new_colb):
