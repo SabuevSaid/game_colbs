@@ -33,10 +33,6 @@ def get_value_colors_in_colbs():
     return value_colors_in_colbs
 def touch():
     pass
-def is_you_can_go():
-    pass
-def go():
-    pass
 def draw():
     pass
 def end():
